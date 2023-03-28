@@ -1,0 +1,11 @@
+[package]
+name = 'moon_coin'
+version = '1.0.0'
+
+[addresses]
+MoonCoin = "_"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = '093b497d1267715a222845aad4fd3ca59da90e8d'
+subdir = 'aptos-move/framework/aptos-framework'
